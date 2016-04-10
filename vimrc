@@ -31,6 +31,7 @@ colorscheme gruvbox
 " Options
 "
 
+set number
 set showcmd
 set smartcase
 set spelllang=pl,en
