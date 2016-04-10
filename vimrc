@@ -6,6 +6,13 @@ call plug#end()
 runtime ftplugin/man.vim
 nnoremap K :<C-U>exe "Man" v:count "<C-R><C-W>"<CR>
 
+" See the difference between the current buffer and the file it was loaded
+" from, thus the changes you made.
+if !exists(":DiffOrig")
+    command DiffOrig vert new | set bt=nofile | r ++edit # | 0d_
+        \ | diffthis | wincmd p | diffthis
+endif
+
 "
 " Options
 "
