@@ -2,6 +2,10 @@ call plug#begin()
 Plug 'tpope/vim-sensible'
 call plug#end()
 
+" Properly display man pages
+runtime ftplugin/man.vim
+nnoremap K :<C-U>exe "Man" v:count "<C-R><C-W>"<CR>
+
 "
 " Options
 "
