@@ -1,6 +1,13 @@
 call plug#begin()
+Plug 'morhetz/gruvbox'
+Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-surround'
 call plug#end()
+
+"
+" Plugins configuration
+"
 
 " Properly display man pages
 runtime ftplugin/man.vim
@@ -12,6 +19,12 @@ if !exists(":DiffOrig")
     command DiffOrig vert new | set bt=nofile | r ++edit # | 0d_
         \ | diffthis | wincmd p | diffthis
 endif
+
+" gruvbox
+let g:gruvbox_italic=1
+set background=dark
+colorscheme gruvbox
+
 
 "
 " Options
