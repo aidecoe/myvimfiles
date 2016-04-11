@@ -46,6 +46,8 @@ nmap <silent> < :bprev<CR>
 nmap <silent> > :bnext<CR>
 " Toggle spell
 nmap <silent> <Leader>s :set spell!<CR>
+" Toggle hlsearch
+nmap <silent> <Leader>h :set hlsearch!<CR>
 
 "
 " Abbreviations
