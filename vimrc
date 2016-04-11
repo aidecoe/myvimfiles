@@ -1,4 +1,5 @@
 call plug#begin()
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all', 'on': 'FZF' }
 Plug 'junegunn/fzf.vim', { 'on': 'FZF' }
 Plug 'morhetz/gruvbox'
