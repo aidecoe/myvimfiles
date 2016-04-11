@@ -1,4 +1,6 @@
 call plug#begin()
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all', 'on': 'FZF' }
+Plug 'junegunn/fzf.vim', { 'on': 'FZF' }
 Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
