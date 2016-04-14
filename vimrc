@@ -60,6 +60,8 @@ nmap <silent> > :bnext<CR>
 nmap <silent> <Leader>s :set spell!<CR>
 " Toggle hlsearch
 nmap <silent> <Leader>h :set hlsearch!<CR>
+" Toggle showing relative line numbers
+nmap <silent> <Leader>r :set relativenumber!<CR>
 
 "
 " Abbreviations
