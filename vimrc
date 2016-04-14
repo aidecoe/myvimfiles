@@ -41,6 +41,7 @@ colorscheme gruvbox
 "
 
 set colorcolumn=+1  " Highlight column after 'textwidth'
+set nojoinspaces
 set number
 set showcmd
 set smartcase
