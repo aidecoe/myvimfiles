@@ -9,8 +9,8 @@ let b:did_local_ftplugin = 1
 
 runtime! ftplugin/haskell.vim
 
-setlocal shiftwidth=4
 setlocal expandtab
+setlocal shiftwidth=4
 setlocal textwidth=79
 
 autocmd BufWritePost *.hs,*.lhs GhcModCheckAndLintAsync
