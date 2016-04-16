@@ -5,6 +5,7 @@ Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 Plug 'eagletmt/neco-ghc'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all', 'on': 'FZF' }
 Plug 'junegunn/fzf.vim', { 'on': 'FZF' }
+Plug 'mhinz/vim-startify'
 Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-characterize'
 Plug 'tpope/vim-eunuch'
