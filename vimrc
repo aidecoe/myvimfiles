@@ -3,8 +3,6 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
     \ | Plug 'eagletmt/ghcmod-vim', { 'tag': 'v1.3.1', 'for': 'haskell' }
 Plug 'eagletmt/neco-ghc'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all', 'on': 'FZF' }
-Plug 'junegunn/fzf.vim', { 'on': 'FZF' }
 Plug 'mhinz/vim-startify'
 Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-characterize'
