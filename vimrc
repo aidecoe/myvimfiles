@@ -31,6 +31,10 @@ if !exists(":DiffOrig")
         \ | diffthis | wincmd p | diffthis
 endif
 
+" ctrlp
+let g:ctrlp_map = '<Leader>p'
+let g:ctrlp_cmd = 'CtrlPBuffer'
+
 " gruvbox
 let g:gruvbox_italic=1
 set background=dark
