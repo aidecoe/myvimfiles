@@ -55,15 +55,10 @@ set ttyfast
 " Keybindings
 "
 
-" Previous buffer
 nmap <silent> < :bprev<CR>
-" Next buffer
 nmap <silent> > :bnext<CR>
-" Toggle spell
 nmap <silent> <Leader>s :set spell!<CR>
-" Toggle hlsearch
 nmap <silent> <Leader>h :set hlsearch!<CR>
-" Toggle showing relative line numbers
 nmap <silent> <Leader>r :set relativenumber!<CR>
 
 "
