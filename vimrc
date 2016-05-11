@@ -36,9 +36,6 @@ let g:gruvbox_italic=1
 set background=dark
 colorscheme gruvbox
 
-" airline
-let g:airline_powerline_fonts = 1
-
 "
 " Options
 "
