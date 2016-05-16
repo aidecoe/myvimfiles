@@ -5,6 +5,7 @@ Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 Plug 'eagletmt/neco-ghc'
 Plug 'mhinz/vim-startify'
 Plug 'morhetz/gruvbox'
+Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-characterize'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-fugitive'
