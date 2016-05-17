@@ -59,6 +59,7 @@ set showcmd
 set smartcase
 set spelllang=pl,en
 set ttyfast
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*.pyc,*.o,*.so
 
 "
 " Keybindings
