@@ -35,7 +35,10 @@ endif
 
 " ctrlp
 let g:ctrlp_map = '<Leader>p'
-let g:ctrlp_cmd = 'CtrlPBuffer'
+let g:ctrlp_cmd = 'CtrlPLastMode'
+nmap <silent> <Leader>pb :CtrlPBuffer<CR>
+nmap <silent> <Leader>pf :CtrlP<CR>
+nmap <silent> <Leader>pm :CtrlPMRU<CR>
 
 " gruvbox
 let g:gruvbox_italic=1
