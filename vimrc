@@ -3,7 +3,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
     \ | Plug 'eagletmt/ghcmod-vim', { 'tag': 'v1.3.1', 'for': 'haskell' }
 Plug 'eagletmt/neco-ghc'
-Plug 'kien/rainbow_parentheses.vim', { 'on': 'RainbowParenthesesToggle' }
+Plug 'kien/rainbow_parentheses.vim'
 Plug 'mhinz/vim-startify'
 Plug 'morhetz/gruvbox'
 Plug 'scrooloose/syntastic'
@@ -46,6 +46,10 @@ set background=dark
 colorscheme gruvbox
 
 " rainbow parentheses
+au Syntax * RainbowParenthesesLoadBraces
+au Syntax * RainbowParenthesesLoadChevrons
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
 nmap <silent> <Leader>R :RainbowParenthesesToggle<CR>
 
 "
