@@ -47,7 +47,6 @@ colorscheme gruvbox
 
 " rainbow parentheses
 au Syntax * RainbowParenthesesLoadBraces
-au Syntax * RainbowParenthesesLoadChevrons
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 nmap <silent> <Leader>R :RainbowParenthesesToggle<CR>
