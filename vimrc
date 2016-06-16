@@ -8,6 +8,7 @@ Plug 'mhinz/vim-startify'
 Plug 'morhetz/gruvbox'
 Plug 'scrooloose/syntastic'
 Plug 'thinca/vim-localrc'
+Plug 'tmhedberg/SimpylFold'
 Plug 'tpope/vim-characterize'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-fugitive'
@@ -52,6 +53,10 @@ au Syntax * RainbowParenthesesLoadBraces
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 nmap <silent> <Leader>R :RainbowParenthesesToggle<CR>
+
+" SimpylFold
+autocmd BufWinEnter *.py setlocal foldexpr=SimpylFold(v:lnum) foldmethod=expr
+autocmd BufWinLeave *.py setlocal foldexpr< foldmethod<
 
 " ycm
 " Don't disable syntastic for C++
