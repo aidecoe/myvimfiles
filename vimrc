@@ -3,6 +3,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
     \ | Plug 'eagletmt/ghcmod-vim', { 'tag': 'v1.3.1', 'for': 'haskell' }
 Plug 'eagletmt/neco-ghc'
+Plug 'fs111/pydoc.vim'
 Plug 'hdima/python-syntax'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'mhinz/vim-startify'
