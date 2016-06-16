@@ -51,6 +51,13 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 nmap <silent> <Leader>R :RainbowParenthesesToggle<CR>
 
+" ycm
+" Don't disable syntastic for C++
+let g:ycm_show_diagnostics_ui = 0
+
+" syntastic
+let g:syntastic_cpp_check_header = 1
+
 "
 " Options
 "
