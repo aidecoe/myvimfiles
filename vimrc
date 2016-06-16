@@ -87,9 +87,3 @@ nmap <silent> > :bnext<CR>
 nmap <silent> <Leader>s :set spell!<CR>
 nmap <silent> <Leader>h :set hlsearch!<CR>
 nmap <silent> <Leader>r :set relativenumber!<CR>
-
-"
-" Abbreviations
-"
-
-cabbr bb buffers
