@@ -3,6 +3,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
     \ | Plug 'eagletmt/ghcmod-vim', { 'tag': 'v1.3.1', 'for': 'haskell' }
 Plug 'eagletmt/neco-ghc'
+Plug 'hdima/python-syntax'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'mhinz/vim-startify'
 Plug 'morhetz/gruvbox'
@@ -47,6 +48,9 @@ nmap <silent> <Leader>pm :CtrlPMRU<CR>
 let g:gruvbox_italic=1
 set background=dark
 colorscheme gruvbox
+
+" Python syntax
+let python_highlight_all = 1
 
 " rainbow parentheses
 au Syntax * RainbowParenthesesLoadBraces
