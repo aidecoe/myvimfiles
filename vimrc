@@ -16,6 +16,7 @@ Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-surround'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.sh' }
 Plug 'vim-airline/vim-airline'
+Plug 'vim-scripts/indentpython.vim--nianyang'
 call plug#end()
 
 "
