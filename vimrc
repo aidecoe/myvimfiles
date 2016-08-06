@@ -75,6 +75,7 @@ let g:syntastic_cpp_check_header = 1
 "
 
 set colorcolumn=+1  " Highlight column after 'textwidth'
+set ignorecase
 set nojoinspaces
 set number
 set showcmd
@@ -91,4 +92,5 @@ nmap <silent> < :bprev<CR>
 nmap <silent> > :bnext<CR>
 nmap <silent> <Leader>s :set spell!<CR>
 nmap <silent> <Leader>h :set hlsearch!<CR>
+nmap <silent> <Leader>i :set ignorecase!<CR>
 nmap <silent> <Leader>r :set relativenumber!<CR>
