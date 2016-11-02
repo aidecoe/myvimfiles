@@ -65,6 +65,9 @@ nmap <silent> <Leader>R :RainbowParenthesesToggle<CR>
 autocmd BufWinEnter *.py setlocal foldexpr=SimpylFold(v:lnum) foldmethod=expr
 autocmd BufWinLeave *.py setlocal foldexpr< foldmethod<
 
+" undotree
+nmap <silent> <Leader>u :UndotreeToggle<CR>
+
 " ycm
 " Don't disable syntastic for C++
 let g:ycm_show_diagnostics_ui = 0
