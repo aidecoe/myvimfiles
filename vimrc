@@ -5,6 +5,7 @@ Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 Plug 'eagletmt/neco-ghc'
 Plug 'fs111/pydoc.vim'
 Plug 'hdima/python-syntax'
+Plug 'jmcantrell/vim-virtualenv'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'mbbill/undotree'
 Plug 'mhinz/vim-startify'
