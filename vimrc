@@ -23,6 +23,7 @@ Plug 'tpope/vim-surround'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.sh' }
 Plug 'vim-airline/vim-airline'
 Plug 'vim-scripts/indentpython.vim--nianyang'
+Plug 'vim-scripts/Mark--Karkat'
 call plug#end()
 
 "
@@ -94,4 +95,4 @@ nmap <silent> > :bnext<CR>
 nmap <silent> <Leader>s :set spell!<CR>
 nmap <silent> <Leader>h :set hlsearch!<CR>
 nmap <silent> <Leader>i :set ignorecase!<CR>
-nmap <silent> <Leader>r :set relativenumber!<CR>
+nmap <silent> <Leader>R :set relativenumber!<CR>
