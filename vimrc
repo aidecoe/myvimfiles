@@ -60,7 +60,7 @@ let python_highlight_all = 1
 au Syntax * RainbowParenthesesLoadBraces
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
-nmap <silent> <Leader>R :RainbowParenthesesToggle<CR>
+nmap <silent> <Leader>b :RainbowParenthesesToggle<CR>
 
 " undotree
 nmap <silent> <Leader>u :UndotreeToggle<CR>
