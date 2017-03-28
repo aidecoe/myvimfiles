@@ -1,4 +1,5 @@
 call plug#begin()
+Plug 'airblade/vim-gitgutter'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
     \ | Plug 'eagletmt/ghcmod-vim', { 'for': 'haskell' }
