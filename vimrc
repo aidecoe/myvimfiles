@@ -44,6 +44,7 @@ endif
 
 " ctrlp
 let g:ctrlp_switch_buffer = 0
+let g:ctrlp_working_path_mode = 0
 let g:ctrlp_map = '<Leader>p'
 let g:ctrlp_cmd = 'CtrlPLastMode'
 nmap <silent> <Leader>pb :CtrlPBuffer<CR>
