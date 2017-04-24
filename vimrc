@@ -90,6 +90,7 @@ set colorcolumn=+1  " Highlight column after 'textwidth'
 set ignorecase
 set nojoinspaces
 set number
+set relativenumber
 set showcmd
 set smartcase
 set spelllang=pl,en
