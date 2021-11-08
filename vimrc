@@ -20,7 +20,7 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-surround'
-Plug 'Valloric/YouCompleteMe', { 'do': './install.sh' }
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py', 'commit': '93956d747abd9f1ac438c219eb27e4ecd94cdb82' }
 Plug 'vim-airline/vim-airline'
 Plug 'vim-scripts/indentpython.vim--nianyang'
 Plug 'vim-scripts/Mark--Karkat'
