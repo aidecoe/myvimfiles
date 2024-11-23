@@ -57,10 +57,7 @@ autocmd FileType netrw setl bufhidden=wipe
 let python_highlight_all = 1
 
 " rainbow parentheses
-au Syntax * RainbowParenthesesLoadBraces
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-nmap <silent> <Leader>b :RainbowParenthesesToggle<CR>
+nmap <silent> <Leader>b :RainbowParenthesesToggleAll<CR>
 
 " undotree
 nmap <silent> <Leader>u :UndotreeToggle<CR>
