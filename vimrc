@@ -1,18 +1,12 @@
 call plug#begin()
 Plug 'airblade/vim-gitgutter'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'Shougo/vimproc.vim', { 'do': 'make' }
-    \ | Plug 'eagletmt/ghcmod-vim', { 'for': 'haskell' }
-Plug 'eagletmt/neco-ghc'
 Plug 'fs111/pydoc.vim'
 Plug 'hdima/python-syntax'
-Plug 'jmcantrell/vim-virtualenv'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'mbbill/undotree'
 Plug 'mileszs/ack.vim'
 Plug 'morhetz/gruvbox'
-Plug 'scrooloose/syntastic'
-Plug 'thinca/vim-localrc'
 Plug 'tpope/vim-characterize'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-fugitive'
@@ -20,10 +14,7 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-surround'
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py', 'commit': '93956d747abd9f1ac438c219eb27e4ecd94cdb82' }
 Plug 'vim-airline/vim-airline'
-Plug 'vim-scripts/indentpython.vim--nianyang'
-Plug 'vim-scripts/Mark--Karkat'
 call plug#end()
 
 "
@@ -73,13 +64,6 @@ nmap <silent> <Leader>b :RainbowParenthesesToggle<CR>
 
 " undotree
 nmap <silent> <Leader>u :UndotreeToggle<CR>
-
-" ycm
-" Don't disable syntastic for C++
-let g:ycm_show_diagnostics_ui = 0
-
-" syntastic
-let g:syntastic_cpp_check_header = 1
 
 "
 " Options
