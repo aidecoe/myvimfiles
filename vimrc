@@ -44,7 +44,7 @@ nmap <silent> <Leader>pm :CtrlPMRU<CR>
 " gruvbox
 let g:gruvbox_italic=1
 set background=dark
-colorscheme gruvbox
+silent! colorscheme gruvbox
 
 " netrw
 let g:netrw_altv = 1
