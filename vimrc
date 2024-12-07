@@ -21,17 +21,6 @@ call plug#end()
 " Plugins configuration
 "
 
-" Properly display man pages
-runtime ftplugin/man.vim
-nnoremap K :<C-U>exe "Man" v:count "<C-R><C-W>"<CR>
-
-" See the difference between the current buffer and the file it was loaded
-" from, thus the changes you made.
-if !exists(":DiffOrig")
-    command DiffOrig vert new | set bt=nofile | r ++edit # | 0d_
-        \ | diffthis | wincmd p | diffthis
-endif
-
 " airline
 let g:airline_powerline_fonts = 1
 
@@ -66,7 +55,7 @@ nmap <silent> <Leader>b :RainbowParenthesesToggleAll<CR>
 nmap <silent> <Leader>u :UndotreeToggle<CR>
 
 "
-" Options
+" Standard settings
 "
 
 set colorcolumn=+1  " Highlight column after 'textwidth'
@@ -90,3 +79,18 @@ nmap <silent> <Leader>s :set spell!<CR>
 nmap <silent> <Leader>h :set hlsearch!<CR>
 nmap <silent> <Leader>i :set ignorecase!<CR>
 nmap <silent> <Leader>R :set relativenumber!<CR>
+
+"
+" Other
+"
+
+" Properly display man pages
+runtime ftplugin/man.vim
+nnoremap K :<C-U>exe "Man" v:count "<C-R><C-W>"<CR>
+
+" See the difference between the current buffer and the file it was loaded
+" from, thus the changes you made.
+if !exists(":DiffOrig")
+    command DiffOrig vert new | set bt=nofile | r ++edit # | 0d_
+        \ | diffthis | wincmd p | diffthis
+endif
