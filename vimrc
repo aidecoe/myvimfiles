@@ -32,6 +32,9 @@ if !exists(":DiffOrig")
         \ | diffthis | wincmd p | diffthis
 endif
 
+" airline
+let g:airline_powerline_fonts = 1
+
 " ctrlp
 let g:ctrlp_switch_buffer = 0
 let g:ctrlp_working_path_mode = 0
