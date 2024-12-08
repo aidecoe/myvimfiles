@@ -1,4 +1,5 @@
 call plug#begin()
+Plug 'Exafunction/codeium.vim', { 'on': 'CodeiumEnable' }
 Plug 'airblade/vim-gitgutter'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'fs111/pydoc.vim'
@@ -25,6 +26,12 @@ call plug#end()
 
 " airline
 let g:airline_powerline_fonts = 1
+
+" codeium
+imap <script><silent><nowait><expr> <M-g> codeium#Accept()
+imap <M-,> <Cmd>call codeium#CycleCompletions(1)<CR>
+imap <M-.> <Cmd>call codeium#CycleCompletions(-1)<CR>
+imap <M-x> <Cmd>call codeium#Clear()<CR>
 
 " ctrlp
 let g:ctrlp_switch_buffer = 0
