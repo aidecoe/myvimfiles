@@ -28,10 +28,10 @@ call plug#end()
 let g:airline_powerline_fonts = 1
 
 " codeium
-imap <script><silent><nowait><expr> <M-g> codeium#Accept()
+imap <script><silent><nowait><expr> <M-/> codeium#Accept()
 imap <M-,> <Cmd>call codeium#CycleCompletions(1)<CR>
 imap <M-.> <Cmd>call codeium#CycleCompletions(-1)<CR>
-imap <M-x> <Cmd>call codeium#Clear()<CR>
+imap <M-g> <Cmd>call codeium#Clear()<CR>
 
 " ctrlp
 let g:ctrlp_switch_buffer = 0
