@@ -32,6 +32,8 @@ imap <script><silent><nowait><expr> <M-/> codeium#Accept()
 imap <M-,> <Cmd>call codeium#CycleCompletions(1)<CR>
 imap <M-.> <Cmd>call codeium#CycleCompletions(-1)<CR>
 imap <M-g> <Cmd>call codeium#Clear()<CR>
+nmap <silent> <Leader>c :CodeiumEnable<CR>
+nmap <silent> <Leader>C :CodeiumDisable<CR>
 
 " ctrlp
 let g:ctrlp_switch_buffer = 0
